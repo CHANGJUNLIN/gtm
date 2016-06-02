@@ -7,6 +7,7 @@ dataLayer.push({
   'travel_origin': 'LAX',
   'travel_rev': '66'
 });
+
 dataLayer.push({
   'ecommerce': {
     'currencyCode': 'USD',
@@ -19,6 +20,7 @@ dataLayer.push({
      }]
   }
 });
+
 function sendGTM() {
   dataLayer.push({
   'event': 'addToCart',
@@ -38,10 +40,6 @@ function sendGTM() {
   });
 }
 </script>
-
-
-
-
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5QF58C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

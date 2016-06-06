@@ -5,20 +5,22 @@ dataLayer.push({
   'travel_pagetype': 'productPage', 
   'travel_destid': '863', 
   'travel_origin': 'LAX',
-  'travel_rev': '66'
+  'travel_totalvalue': '66'
 });
 
 dataLayer.push({
   'ecommerce': {
     'currencyCode': 'USD',
-    'impressions': [{
-       'name': '3-Day Las Vegas and Grand Canyon/Grand Canyon West Rim Tour',
-       'id': '863',
-       'price': '66',
-       'brand': '27',
-       'category': 'USWest'
-     }]
-  }
+      'detail': {
+        'products': [{
+          'name': '3-Day Las Vegas and Grand Canyon/Grand Canyon West Rim Tour',
+          'id': '863',
+          'price': '66',
+          'brand': '27',
+          'category': 'USWest'
+        }]
+      }
+    }
 });
 
 function sendGTM() {

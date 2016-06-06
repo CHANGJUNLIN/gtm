@@ -22,5 +22,4 @@ dataLayer.push({
     }
   }
 });
-{/if}
 </script>

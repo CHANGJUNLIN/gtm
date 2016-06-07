@@ -1,7 +1,6 @@
 <script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
-  "event": "transaction",
   "ecommerce": {
     'currencyCode': 'USD',
     "purchase": {
@@ -23,5 +22,4 @@ dataLayer.push({
     }
   }
 });
-{/if}
 </script>
